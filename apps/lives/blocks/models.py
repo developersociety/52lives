@@ -2,7 +2,7 @@
 
 from django.db import models
 
-from blanc_pages.blocks import BaseBlock
+from blanc_pages.models.blocks import BaseBlock
 
 
 class LatestLivesBlock(BaseBlock):

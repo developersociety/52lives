@@ -68,13 +68,10 @@ THIRD_PARTY_APPS = [
     'blanc_basic_assets',
     'blanc_basic_news',
     'blanc_pages',
-    'blanc_pages_form_block',
-    'blanc_pages_image_block',
-    'blanc_pages_redactor_block',
+    'blanc_pages.blocks.image',
     'django_mptt_admin',
     'mptt',
     'raven.contrib.django.raven_compat',
-    'redactorjs_staticfiles',
     'sorl.thumbnail',
 ]
 
