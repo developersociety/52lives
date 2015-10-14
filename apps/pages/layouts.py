@@ -21,6 +21,9 @@ class HomePage(PageLayout):
     intro = columns.Column(width=960)
     content = columns.Column('Main content', width=960)
     left_side = columns.Column('Left side', width=320)
+    control = columns.Column('Control', width=320)
+    asilas = columns.Column('Asilas', width=320)
+    test = columns.Column('Test', width=320)
 
 
 @pages.register(get_page_model())
