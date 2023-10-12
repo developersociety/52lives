@@ -170,7 +170,7 @@ def get_backup(hostname=None, replace_hostname='127.0.0.1', replace_port=8000):
     local('createdb {}'.format(env.database))
 
     # Connect to the server and dump database.
-    commands = ['ssh -C {} sudo -u postgres pg_dump --no-owner {}'.format(
+    commands = ['ssh -C {} sudo -u postgres pg_dump --no-owner --no-privileges {}'.format(
         env.database_ssh, env.database
     )]
 
